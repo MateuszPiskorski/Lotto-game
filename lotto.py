@@ -25,4 +25,5 @@ def lotto():
     print(f"You scored {len(player_scores)} number(s): {player_scores}")
 
 
-lotto()
+if __name__ == "__main__":
+    lotto()
